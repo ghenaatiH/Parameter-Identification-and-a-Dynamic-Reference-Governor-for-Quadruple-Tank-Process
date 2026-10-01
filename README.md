@@ -13,7 +13,7 @@ The repository is organized according to the main computational sections of the 
 This folder contains the scripts and numerical results associated with **Section 2.2 (System Identification)** of the paper.
 
 * **`System Identification.m`**
-  Performs the parameter identification procedure using two software environments and two optimization methods: **Interior-Point** and **SQP**. The results obtained from the identification procedures and used in the paper are also provided in this folder.
+  Performs the parameter identification procedure using two objective functions and two optimization methods: **Interior-Point** and **SQP**. The results obtained from the identification procedures and used in the paper are also provided in this folder.
 
 * **`IdentificationResults.m`**
   Displays the identification results presented in **Section 2.2** of the paper.
