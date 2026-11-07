@@ -21,7 +21,7 @@ Vmin=0;
 load('StepResponse.mat');
 Y11=Y11(2:end);Y12=Y12(2:end);
 Y21=Y21(2:end);Y22=Y22(2:end);
-N = 17; % number of samplint instances to construct DMC model
+N = 20; % number of samplint instances to construct DMC model
 p = 5; % Prediction Horizon
 m = p; % Control Horizon
 G11=zeros(p,m);G12=zeros(p,m);G21=zeros(p,m);G22=zeros(p,m);G=zeros(2*p,2*m);
@@ -223,7 +223,7 @@ Vmin=0.05;
 load('StepResponse.mat');
 Y11=Y11(2:end);Y12=Y12(2:end);
 Y21=Y21(2:end);Y22=Y22(2:end);
-N = 17;% Number of time instances
+N = 20;% Number of time instances
 p = 5; % Prediction Horizon
 m = p; % Control Horizon
 G11=zeros(p,m);G12=zeros(p,m);G21=zeros(p,m);G22=zeros(p,m);G=zeros(2*p,2*m);
